@@ -1,0 +1,41 @@
+.container {
+  border-radius: 12px;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font: var(--font-preset-5-medium);
+  display: flex;
+  gap: var(--spacing-200);
+}
+
+.score {
+  font: var(--font-preset-5-bold);
+  color: var(--color-navy-950);
+}
+
+.scoreOf {
+  opacity: 0.5;
+}
+
+.yellow {
+  background: var(--color-yellow-50);
+  color: var(--color-yellow-400);
+}
+
+.green {
+  background: var(--color-green-50);
+  color: var(--color-green-400);
+}
+
+.red {
+  background: var(--color-red-50);
+  color: var(--color-red-400);
+}
+
+.blue {
+  background: var(--color-blue-50);
+  color: var(--color-blue-400);
+}

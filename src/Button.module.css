@@ -1,0 +1,12 @@
+.button {
+  background-color: var(--color-navy-950);
+  color: var(--color-white);
+  font: var(--font-preset-5-bold);
+  padding: 1.65rem;
+  border-radius: 1000px;
+  border: none;
+}
+
+.button:hover {
+  background: var(--gradient-2);
+}
