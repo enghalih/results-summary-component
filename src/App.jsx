@@ -5,14 +5,14 @@ import s from "./App.module.css";
 
 function App() {
   return (
-    <div className={s.container}>
+    <main className={s.container}>
       <ScoreCard />
-      <div className={s.content}>
+      <section className={s.content}>
         <h2 className={s.summary}>Summary</h2>
         <ScoreList />
         <Button />
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

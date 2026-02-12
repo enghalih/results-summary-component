@@ -2,7 +2,7 @@ import s from "./ScoreCard.module.css";
 
 export default function ScoreCard() {
   return (
-    <div className={s.container}>
+    <article className={s.container}>
       <div className={s.wrapper}>
         <p className={s.result}>Your Result:</p>
         <div className={s.score}>
@@ -16,6 +16,6 @@ export default function ScoreCard() {
           </p>
         </div>
       </div>
-    </div>
+    </article>
   );
 }

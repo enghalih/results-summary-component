@@ -15,7 +15,7 @@ export default function ScoreForm({ color, title, score }) {
   const Icon = icons[title.toLowerCase()];
 
   return (
-    <div className={`${s.container} ${s[color]}`}>
+    <article className={`${s.container} ${s[color]}`}>
       <div className={s.title}>
         <img src={Icon} alt="" aria-hidden="true" />
         {title}
@@ -24,6 +24,6 @@ export default function ScoreForm({ color, title, score }) {
       <div className={s.score}>
         {score} <span className={s.scoreOf}>/ 100</span>
       </div>
-    </div>
+    </article>
   );
 }
